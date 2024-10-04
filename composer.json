@@ -1,0 +1,12 @@
+{
+    "name": "venmrs/mrsn",
+    "description": "เวชระเบียนโรงพยาบาลโนนดินแดง",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Venmrs\\Mrsn\\": "src/"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    @apply bg-white transition-all duration-300 ease-in-out;
+
+}
+
+.nav-link {
+    @apply text-gray-600 hover:text-gray-800 font-semibold;
+}
+
+.nav-link:hover {
+    @apply underline;
+}
+
