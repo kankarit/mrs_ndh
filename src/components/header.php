@@ -8,3 +8,5 @@
     <title>เวชระเบียนโรงพยาบาลโนนดินแดง</title>
 </head>
 <body>
+    <script src="/mrs_ndh/public/js/script.js"></script>
+    <script src="/mrs_ndh/public/js/page.js"></script>

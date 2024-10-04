@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /mrs_ndh/public/
+
+# หากไม่ใช่ไฟล์หรือโฟลเดอร์ ให้รีไรต์ไปที่ index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
+
+# ตั้งค่าให้ homepage โหลดเมื่อเข้าที่ /
+RewriteRule ^$ index.php?page=home [L]
